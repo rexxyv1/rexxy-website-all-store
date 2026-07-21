@@ -1,1 +1,45 @@
+footer{
 
+    margin-top:80px;
+
+    padding:40px 20px;
+
+    background:#111827;
+
+    text-align:center;
+
+}
+
+.footer-content h2{
+
+    color:#FACC15;
+
+}
+
+.footer-content p{
+
+    margin:15px 0;
+
+    color:#94A3B8;
+
+}
+
+.footer-content a{
+
+    display:inline-block;
+
+    margin:15px 0;
+
+    padding:12px 25px;
+
+    background:#FACC15;
+
+    color:#111;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+}

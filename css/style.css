@@ -1,0 +1,111 @@
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+/* Loading Screen */
+
+#loader{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#0F172A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+    transition:.5s;
+}
+
+.loader-box{
+    text-align:center;
+}
+
+.loader-box i{
+    font-size:60px;
+    color:#FACC15;
+    margin-bottom:15px;
+}
+
+.loader-box h2{
+    color:white;
+    margin-bottom:10px;
+}
+
+.loader-box p{
+    color:#94A3B8;
+}
+
+#loader.hide{
+    opacity:0;
+    visibility:hidden;
+}
+
+/* ANIMASI HOVER */
+
+.category-card,
+.product-card,
+.stat-card{
+
+    transition:.3s;
+
+}
+
+.category-card:hover,
+.product-card:hover,
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
+
+}
+
+/* =========================
+   TOMBOL MENGAMBANG
+========================= */
+
+.wa-button{
+
+position:fixed;
+
+bottom:20px;
+
+right:20px;
+
+width:60px;
+
+height:60px;
+
+border-radius:50%;
+
+background:#25D366;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+color:white;
+
+font-size:28px;
+
+text-decoration:none;
+
+box-shadow:0 10px 20px rgba(0,0,0,.25);
+
+z-index:999;
+
+transition:.3s;
+
+}
+
+.wa-button:hover{
+
+transform:scale(1.1);
+
+}

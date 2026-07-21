@@ -1,1 +1,82 @@
+#hero{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+    min-height:90vh;
+    padding:80px 8%;
+}
 
+.hero-left h1{
+    font-size:56px;
+    line-height:1.2;
+    margin:20px 0;
+}
+
+.hero-left h1 span{
+    color:#FACC15;
+}
+
+.hero-left p{
+    color:#94A3B8;
+    margin-bottom:30px;
+    line-height:1.8;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    margin-bottom:40px;
+}
+
+.btn-primary{
+
+    background:#FACC15;
+
+    color:#111;
+
+    padding:15px 28px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.btn-secondary{
+
+    border:2px solid #FACC15;
+
+    color:white;
+
+    padding:15px 28px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+}
+
+.hero-info{
+
+    display:flex;
+
+    gap:40px;
+
+}
+
+.hero-info h3{
+
+    color:#FACC15;
+
+    font-size:28px;
+
+}
+
+.hero-right img{
+
+    width:100%;
+
+}
